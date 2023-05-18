@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="awesome/css/brands.css" rel="stylesheet">
+    <link href="awesome/css/solid.css" rel="stylesheet">
+    <title>MY PORTFOLIO</title>
+    <style>
+         body{
+            background: rgba(0,0,0,0.9);
+        }
+        .left{
+            top: 120px;
+            left: 0;
+            margin-left: 200px;
+            width: 30%;
+            background: transparent;
+            font-family: sans-serif;
+        }
+        .right{
+            top: 120px;
+            right: 0;
+            background: transparent;
+            color: #fff;
+            width: 70%;
+            margin-left: -200px;
+        }
+        .container{
+            display: flex;
+            margin-right: 400px;
+            width: 100%;
+        }
+
+        .box{
+            white-space: nowrap;
+            width: 55px;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+        img{
+            width: 90%;
+            height: 200px;
+            padding: 20px;
+
+        }
+        .container1{
+            display: flex;
+            margin-left: 150px;
+            margin-top: 70px;
+        }
+        #img2{
+            width: 45%;
+            height: 70px;
+        }
+        .container2{
+            display: flex;
+            margin-left: 145px;
+        }
+        ul{
+            list-style: none;
+            margin-top: 120px;
+            margin-right: 18px;
+            float: right;
+        }
+        ul li{
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+         
+        ul li a {
+            width: 40px;
+            height: 40px;
+            font-size: 25px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition-property: background, font-size,;
+            transition-duration: 1s;
+            transition-delay: 0px;
+            transition-timing-function: ease-in-out;
+            box-sizing: border-box;
+        }
+        ul li a:hover{
+            background-color: #fb8500;
+            font-size: 10px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header class="top">
+        <div class="container">
+            <div class="box" style="font-size: 60px;font-weight: 900;color: rgba(0,0,0,0.9);margin-left: 500px;"> my works</div>
+            <div class="box" style="font-size: 25px;font-weight: 900;color: #fff;padding-top: 25px;margin-right: 100px; margin-left: 20px;">my <span style="color: #fb8500;">portfolio</span></div>
+        </div>
+    </header>
+    <ul>
+        <li><a href="../PROJECT/index.html" target="_self" rel="noopener noreferrer"><i class="fa fa-home" aria-hidden="true" style="color: #fff;"></i></a></li>
+        <li><a href="../PROJECT/aboutme.html" target="_self" rel="noopener noreferrer"><i class="fa fa-user" aria-hidden="true" style="color: #fff;"></i></a></li>
+        <li><a href="../PROJECT/myportfolio.html" target="_self" rel="noopener noreferrer"><i class="fa fa-briefcase" aria-hidden="true" style="color: #fff;"></i></a></li>
+        <li><a href="../PROJECT/getintouch.html" target="_self" rel="noopener noreferrer"><i class="fa fa-envelope-open" aria-hidden="true" style="color: #fff;"></i></a></li>
+        <li><a href="../PROJECT/myblog.html" target="_self" rel="noopener noreferrer"><i class="fa fa-comments" aria-hidden="true" style="color: #fff;"></i></a></li>
+    </ul>
+    <div class="container1">
+        <div><img src="../PROJECT/images/port1.jpeg" alt=""></div>
+        <div><img src="../PROJECT/images/port2.jpeg" alt=""></div>
+        <div><img src="../PROJECT/images/port3.jpeg" alt=""></div>
+    </div>
+
+    <div class="container2">
+        <div id="img2"><img src="../PROJECT/images/port4.jpeg" alt=""></div>
+        <div id="img2"><img src="../PROJECT/images/port5.jpeg" alt=""></div>
+        <div id="img2"><img src="../PROJECT/images/port6.jpeg" alt=""></div>
+    </div>
+</body>
+</html>

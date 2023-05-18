@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="awesome/css/brands.css" rel="stylesheet">
+    <link href="awesome/css/solid.css" rel="stylesheet">
+    <title>MY BLOG</title>
+    <style>
+        body{
+            background: rgba(0,0,0,0.9);
+        }
+        .container{
+            display: flex;
+            margin: 10px;
+        }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 200px;
+            margin-top: 90px;
+            align-items: stretch;
+        }
+        .card{
+            flex: 0 0 200px;
+            margin: 10px;
+            border: 1px ;
+            border-radius: 10px;
+            box-shadow: 2px 2px 6px 6px rgba(0,0,0,0.3);
+        }
+        .card img{
+            max-width: 100%;
+        }
+        .card .text{
+            color: #ccc;
+            padding: 0 20px 20px;
+        }
+        .card .text > button{
+            background: #fb8500;
+            border: 1px solid #fb8500;
+            color: white;
+            border-radius: 20px;
+            padding: 7px;
+        }
+        hr{
+            width: 230px;
+            border-top: 2px solid #fb8500;
+            font-weight: 100px;
+        }
+        h3:hover{
+            color: #fb8500;
+            font-size: 20px;
+
+        }
+        .left{
+            top: 120px;
+            left: 0;
+            margin-left: 200px;
+            width: 30%;
+            background: transparent;
+            font-family: sans-serif;
+        }
+        .right{
+            top: 120px;
+            right: 0;
+            background: transparent;
+            color: #fff;
+            width: 70%;
+            margin-left: -200px;
+        }
+        .container{
+            display: flex;
+            margin-right: 400px;
+            width: 100%;
+        }
+        .box{
+            white-space: nowrap;
+            width: 55px;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+        ul{
+            list-style: none;
+            margin-top: 120px;
+            margin-right: 18px;
+            float: right;
+        }
+        ul li{
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+         
+        ul li a {
+            width: 40px;
+            height: 40px;
+            font-size: 25px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition-property: background, font-size,;
+            transition-duration: 1s;
+            transition-delay: 0px;
+            transition-timing-function: ease-in-out;
+            box-sizing: border-box;
+        }
+        ul li a:hover{
+            background-color: #fb8500;
+            font-size: 10px;
+        }
+        
+       
+        
+    </style>
+</head>
+<body> 
+     <header class="top">
+    <div class="container">
+        <div class="box" style="font-size: 60px;font-weight: 900;color: rgba(0,0,0,0.9);margin-left: 500px;"> my post</div>
+        <div class="box" style="font-size: 25px;font-weight: 900;color: #fff;padding-top: 25px;margin-right: 100px; margin-left: 20px;">my <span style="color: #fb8500;">blogs</span></div>
+    </div>
+</header>
+<ul>
+    <li><a href="../PROJECT/index.html" target="_self" rel="noopener noreferrer"><i class="fa fa-home" aria-hidden="true" style="color: #fff;"></i></a></li>
+    <li><a href="../PROJECT/aboutme.html" target="_self" rel="noopener noreferrer"><i class="fa fa-user" aria-hidden="true" style="color: #fff;"></i></a></li>
+    <li><a href="../PROJECT/myportfolio.html" target="_self" rel="noopener noreferrer"><i class="fa fa-briefcase" aria-hidden="true" style="color: #fff;"></i></a></li>
+    <li><a href="../PROJECT/getintouch.html" target="_self" rel="noopener noreferrer"><i class="fa fa-envelope-open" aria-hidden="true" style="color: #fff;"></i></a></li>
+    <li><a href="../PROJECT/myblog.html" target="_self" rel="noopener noreferrer"><i class="fa fa-comments" aria-hidden="true" style="color: #fff;"></i></a></li>
+</ul>
+    <main class="cards"> 
+        <div class="container">
+            <article class="card">
+            <img src="../PROJECT/images/code woman.jpeg" alt="" srcset="">
+            <div class="text">
+                <h3>How to Own Your Audience by Creating an Email List</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Laudantium maiores similique adipisci quis quo assumenda 
+                    corporis voluptatum odio magnam harum.</p>
+                <button>Read More</button>
+    
+            </div>
+        </article>
+        <article class="card">
+            <img src="../PROJECT/images/code.jpeg" alt="" srcset="">
+            <div class="text">
+                <h3>Everything You Need to Know About Web Accessibility</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maiores similique adipisci quis quo assumenda corporis voluptatum odio magnam harum.</p>
+                <button>Read More</button>
+    
+            </div>
+        </article>
+        <article class="card">
+            <img src="../PROJECT/images/for every.png" alt="" srcset="">
+            <div class="text">
+                <h3>Improve Your Knowledge On C++</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maiores similique adipisci quis quo assumenda corporis voluptatum odio magnam harum.</p>
+                <button>Read More</button>
+                
+    
+            </div>
+        </article></div>   
+       <div class="container"><article class="card">
+            <img src="../PROJECT/images/software.jpeg" alt="" srcset="">
+            <div class="text">
+                <h3>Learn More About Web Softwares</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maiores similique adipisci quis quo assumenda corporis voluptatum odio magnam harum.</p>
+                <button>Read More</button>
+    
+            </div>
+        </article>
+        <article class="card">
+            <img src="../PROJECT/images/laptop.jpeg" alt="" srcset="">
+            <div class="text">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maiores similique adipisci quis quo assumenda corporis voluptatum odio magnam harum.</p>
+                <button>Read More</button>
+    
+            </div>
+        </article>
+        <article class="card">
+            <img src="../PROJECT/images/3d.jpeg" alt="" srcset="">
+            <div class="text">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maiores similique adipisci quis quo assumenda corporis voluptatum odio magnam harum.</p>
+                <button>Read More</button>
+    
+            </div>
+        </article></div> 
+        
+</body>
+</html>
